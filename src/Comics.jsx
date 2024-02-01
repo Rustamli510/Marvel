@@ -30,7 +30,7 @@ function Comics() {
                 <Link to={`/${item.id}`}><img src={`${item?.thumbnail.path}.${item?.thumbnail.extension}`} alt="" /></Link>
                 <div className="comics-div-bottom">
                   <h1>{item?.title}</h1>
-                  <p>{item?.prices.find(item => item.type == 'printPrice')?.price}$</p>
+                  <p>{item?.prices[0]?.price}$</p>
                 </div>
               </div>
             </Col>

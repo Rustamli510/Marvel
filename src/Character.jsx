@@ -11,7 +11,7 @@ import Info from './Info.jsx'
 function Character({ data }) {
     const [more, setMore] = useState(9)
     const [cardIndex, setCardIndex] = useState(null)
-    const [cardInfo, setCardInfo] = useState({})
+    const [cardInfo, setCardInfo] = useState(null)
 
     const load = () => {
         setMore(more + 9)

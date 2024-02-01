@@ -47,10 +47,10 @@ function ComicsInfo() {
                                 </div>
                             </div>
                             <div className="top-bottom">
-                                <h4>{comicsInner.textObjects?.[0].text}</h4>
+                                <h4>{comicsInner.textObjects?.[0]?.text}</h4>
                                 <p className='pages'>{comicsInner?.pagecount}</p>
-                                <p className="language">{comicsInner?.textObjects?.[0].language}</p>
-                                <p className='price'>{comicsInner?.prices?.[0].price}$</p>
+                                <p className="language">{comicsInner?.textObjects?.[0]?.language}</p>
+                                <p className='price'>{comicsInner?.prices?.[0]?.price}$</p>
                             </div>
                         </div>
                     </Col>

@@ -46,13 +46,6 @@ const CardInfo = ({ cardInfo,setCardInfo, data }) => {
                         <button onClick={find}>Find</button>
                     </div>
                 </div>
-                {foundCharacter && (
-                    <div className="foundCharacterInfo">
-                        {/* Display information for the found character here */}
-                        <h2>{foundCharacter.name}</h2>
-                        {/* Add other information you want to display */}
-                    </div>
-                )}
             </Container>
         </div>
     )
