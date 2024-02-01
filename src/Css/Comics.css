@@ -1,0 +1,40 @@
+.banner2 {
+    padding-top: 50px;
+}
+
+.banner2 img {
+    width: 100%;
+}
+
+.comics-div{
+    width: 225px;
+    padding-top: 50px;
+}
+
+.comics-div img{
+    width: 225px;
+    box-shadow: 5px 5px 10px 0px #00000040;
+}
+
+.comics-div .comics-div-bottom{
+    padding-top: 10px;
+}
+
+.comics-div .comics-div-bottom h1 {
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.comics-div .comics-div-bottom p {
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00000099;
+}

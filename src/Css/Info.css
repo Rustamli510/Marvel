@@ -1,0 +1,147 @@
+.cardinfo {
+    box-shadow: 0px 0px 20px 0px #00000040;
+    padding: 25px;
+    z-index: 9;
+    background-color: white;
+}
+
+.cardinfo .top {
+    display: flex;
+}
+
+.cardinfo .top .info-top-right {
+    padding-left: 25px;
+    flex-direction: column;
+    display: flex;
+}
+
+.cardinfo .top .info-top-right h1 {
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.cardinfo .top .info-top-right a {
+    padding: 11px 18px;
+    border: none;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    background: #9F0013;
+    margin-top: auto;
+    clip-path: polygon(10% 0, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
+    text-align: left;
+    text-decoration: none;
+    width: 101px;
+    height: 38px;
+}
+
+.cardinfo .top .info-top-right .second {
+    padding: 11px 37px;
+    background: #5C5C5C;
+    margin-top: 10px;
+}
+
+.cardinfo .info-middle {
+    padding: 15px 0 10px 0;
+}
+
+.cardinfo .info-middle p {
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.cardinfo .info-bottom {
+    padding: 10px 0;
+}
+
+.cardinfo .info-bottom h3 {
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.cardinfo .comics {
+    box-shadow: 0px 4px 4px 0px #00000040;
+    width: 375px;
+}
+
+.cardinfo .comics p {
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 4px 0 4px 10px;
+}
+
+.find {
+    box-shadow: 0px 0px 20px 0px #00000040;
+    padding: 25px;
+    z-index: 9;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.find h1 {
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+}
+
+.find .find-bottom {
+    display: flex;
+    align-items: center;
+    padding-top: 18px;
+}
+
+.find .find-bottom input {
+    width: 250px;
+    padding: 10px 0 10px 10px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    margin-right: 24px;
+}
+
+.find .find-bottom input:focus {
+    background: #F2F2F2;
+    border: 1px solid #9F0013;
+    border-radius: 10px;
+}
+
+
+.find .find-bottom button {
+    padding: 11px 39px;
+    border: none;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    background: #9F0013;
+    margin-top: 0;
+    clip-path: polygon(10% 0, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
+}

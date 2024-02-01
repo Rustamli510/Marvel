@@ -1,0 +1,243 @@
+.banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.banner .bannerleft {
+    display: flex;
+    padding: 35px 35px 35px 40px;
+    box-shadow: 5px 5px 20px 0px #00000040;
+}
+
+.banner .bannerleft .bannertext {
+    padding-left: 30px;
+}
+
+.banner .bannerleft .bannertext h3 {
+    margin: 0;
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.banner .bannerleft .bannertext p {
+    margin: 0;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 10px 0 13px 0;
+}
+
+.banner .bannerleft .bannertext .bannertextbottom {
+    display: flex;
+}
+
+.banner .bannerleft .bannertext .bannertextbottom button {
+    border: none;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 11px 18px;
+    color: white;
+    width: 101px;
+    height: 38px;
+    transition: ease-in-out .1s;
+    clip-path: polygon(10% 0, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
+}
+
+.banner .bannerleft .bannertext .bannertextbottom button:hover{
+    margin-top: -3px;
+}
+
+.banner .bannerleft .bannertext .bannertextbottom .first {
+    background: #9F0013;
+}
+
+.banner .bannerleft .bannertext .bannertextbottom .second{
+    padding: 11px 37px;
+}
+
+.banner .bannerleft .bannertext .bannertextbottom .second {
+    background: #5C5C5C;
+    margin-left: 30px;
+}
+
+.banner .bannerright {
+    background: #232222;
+    box-shadow: 5px 5px 20px 0px #00000040;
+    padding-bottom: 63px;
+}
+
+.banner .bannerright p {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin: 0;
+    padding: 35px 0 0 40px;
+}
+
+.banner .bannerright .bannerrightbottom {
+    display: flex;
+    position: relative;
+}
+
+.banner .bannerright .bannerrightbottom .bannerrightbottomtext {
+    padding: 33px 0 35px 40px;
+
+}
+
+.banner .bannerright .bannerrightbottom .bannerrightbottomtext p {
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding: 0;
+}
+
+.banner .bannerright .bannerrightbottom .bannerrightbottomtext button {
+    border: none;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 11px 28px;
+    color: white;
+    background: #9F0013;
+    transition: ease-in-out .1s;
+    margin-top: 25px;
+    left: 40px;
+    position: absolute;
+    clip-path: polygon(10% 0, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
+}
+
+.banner .bannerright .bannerrightbottom .bannerrightbottomtext button:hover{
+    margin-top: 20px;
+}
+
+.banner .bannerright .bannerrightbottom .bannerrightbottomimg {
+    position: absolute;
+    right: -35px;
+    bottom: -45px;
+}
+
+.character{
+    padding: 53px 0 45px 0;
+    text-align: center;
+    position: relative;
+}
+.card {
+    background-color: #232222;
+    width: 200px;
+    height: 318px;
+    border-radius: 0;
+    margin: 0 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 0px #00000040;
+    transition: ease-in-out .3s;
+}
+
+.card.selected{
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.5);
+    transform: scale(1.05);
+}
+
+.card h1 {
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin: 0;
+    padding: 0;
+    padding: 15px 15px 74px 15px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.more{
+    padding: 10px 52px;
+    border: none;
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 11px 18px;
+    color: white;
+    background: #9F0013;
+    margin-top: auto;
+    clip-path: polygon(10% 0, 100% 0, 100% 75%, 90% 100%, 0 100%, 0 25%);
+    transition: all .3s;
+}
+
+.more:hover{
+    transform: scale(1.1);
+}
+
+.asset{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -999;
+}
+
+.skeleton{
+    padding: 25px;
+    box-shadow: 0px 0px 20px 0px #00000040;
+}
+
+.skeleton h3{
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    padding: 0 28px 30px 40px;
+}
+
+.skeleton .skeletonbottom{
+    width: 375px;
+    height: 190px;
+    
+}
+
+.skeleton .skeletonbottom .bottomtop{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.skeleton .skeletonbottom .bottomtop .rectangularskeleton{
+    margin-left: 9px;
+}
+
+.skeleton .skeletonbottom .bottomrectangular{
+    margin-bottom: 15px;
+}
